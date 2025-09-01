@@ -16,7 +16,7 @@ permalink: pretty
 paginate: 5
 
 # Theme
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: pages-themes/minimal
 
 # GitHub Pages 호환 플러그인
 plugins:
@@ -42,14 +42,13 @@ navbar_items:
   - name: Archive
     link: /archive/
 
-# Collections (카테고리별 구성)
-collections:
-  daily:
-    output: true
-    permalink: /:collection/:name/
-  news:
-    output: true
-    permalink: /:collection/:name/
-  translation:
-    output: true
-    permalink: /:collection/:name/
+# 네비게이션 메뉴
+navigation:
+  - title: "하루 한 줄"
+    url: "/daily/"
+  - title: "뉴스"  
+    url: "/news/"
+  - title: "번역"
+    url: "/translation/"
+  - title: "Archive"
+    url: "/archive/"
