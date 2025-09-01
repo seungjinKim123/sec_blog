@@ -1,0 +1,346 @@
+# ===================================
+# Jekyll & Ruby
+# ===================================
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock
+*.gem
+.ruby-version
+.rbenv-version
+
+# ===================================
+# 로그 및 임시 파일
+# ===================================
+*.log
+*.tmp
+*.temp
+.tmp/
+.temp/
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+*.old
+
+# ===================================
+# macOS
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDouble
+.LSOverride
+Icon
+.apdisk
+
+# ===================================
+# Windows
+# ===================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ===================================
+# Linux
+# ===================================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# 에디터 및 IDE
+# ===================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+bin/
+obj/
+*.suo
+*.user
+*.sln.cache
+
+# IntelliJ IDEA / WebStorm / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Notepad++
+*.bak
+
+# ===================================
+# 개발 환경
+# ===================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# ===================================
+# 환경 변수 및 설정
+# ===================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+config.json
+secrets.json
+
+# ===================================
+# 데이터베이스
+# ===================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ===================================
+# 아카이브 및 압축 파일
+# ===================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.bz2
+*.xz
+*.tgz
+
+# ===================================
+# 미디어 파일 (필요시 주석 해제)
+# ===================================
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.mp4
+# *.avi
+# *.mov
+# *.wmv
+# *.flv
+# *.mp3
+# *.wav
+# *.flac
+
+# ===================================
+# 오피스 문서 임시 파일
+# ===================================
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+*~$*
+
+# ===================================
+# 버전 관리 시스템
+# ===================================
+.git/
+.gitattributes
+.svn/
+.hg/
+.bzr/
+
+# ===================================
+# 보안 관련
+# ===================================
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+private/
+secrets/
+credentials/
+
+# ===================================
+# Jekyll 특화 설정
+# ===================================
+
+# 초안 (공개하지 않을 경우)
+_drafts/
+
+# 로컬 설정
+_config_local.yml
+_config_development.yml
+_config_test.yml
+
+# 자동 생성 파일들
+sitemap.xml
+feed.xml
+robots.txt
+
+# 테마 개발
+_sass/.sass-cache/
+assets/.sass-cache/
+
+# 플러그인 개발
+_plugins/development/
+_plugins/test/
+
+# 이미지 최적화
+.imageoptim
+*.optimized
+
+# ===================================
+# 클라우드 서비스
+# ===================================
+
+# Google Drive
+.grive/
+.grive_state
+
+# Dropbox
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# OneDrive
+OneDrive - */
+
+# iCloud
+*.icloud
+
+# ===================================
+# 개발 도구
+# ===================================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Vagrant
+.vagrant/
+*.box
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# ===================================
+# 성능 및 모니터링
+# ===================================
+.nyc_output/
+coverage/
+*.lcov
+*.gcov
+*.gcda
+*.gcno
+
+# ===================================
+# 기타 개발 파일
+# ===================================
+*.orig
+*.rej
+.tern-port
+.cache/
+dist/
+build/
+*.pid
+*.seed
+*.pid.lock
+.lock-wscript
+.grunt/
+.bower_components/

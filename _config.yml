@@ -1,0 +1,55 @@
+# Site settings
+title: "Sec. Blog"
+description: "보안 트렌드와 기술 학습을 기록하는 블로그"
+baseurl: "" # username.github.io 사용시 빈 문자열
+url: "https://seungkim123.github.io" # 본인 계정명으로 변경
+
+# Author settings
+author:
+  name: "SeungKim"
+  #email: "your-email@example.com"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+
+# Theme
+remote_theme: chrisrhymes/bulma-clean-theme
+
+# GitHub Pages 호환 플러그인
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Bulma Clean Theme 설정
+fixed_navbar: top
+show_sidebar: false
+
+# 네비게이션 메뉴
+navbar_items:
+  - name: Home
+    link: /
+  - name: 하루 한 줄
+    link: /daily/
+  - name: 뉴스
+    link: /news/
+  - name: 번역
+    link: /translation/
+  - name: Archive
+    link: /archive/
+
+# Collections (카테고리별 구성)
+collections:
+  daily:
+    output: true
+    permalink: /:collection/:name/
+  news:
+    output: true
+    permalink: /:collection/:name/
+  translation:
+    output: true
+    permalink: /:collection/:name/
